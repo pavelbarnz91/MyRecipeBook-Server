@@ -9,6 +9,7 @@ const static = require('koa-static');
 const htmls = require('./dataBases/html.js');
 const database = path.join(__dirname, './databases/database.json');
 const BDWorker = require('./js/BDWorker.js');
+const port = process.env.PORT || 9090;
 
 app.use(cors())
 
@@ -65,4 +66,4 @@ app.use(async ctx => {
     }
 })
 
-const server = http.createServer(app.callback()).listen(9090);
+const server = http.createServer(app.callback()).listen(port);
