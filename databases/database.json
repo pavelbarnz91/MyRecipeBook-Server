@@ -1,0 +1,29 @@
+{
+ "persons": [
+  {
+   "name": "a",
+   "lastname": "a",
+   "email": "a@gmail.com",
+   "pass": "a",
+   "pass2": "a"
+  },
+  {
+   "name": "Pavel",
+   "lastname": "Barnz",
+   "email": "p.barnz91@gmail.com",
+   "pass": "54225422st22",
+   "pass2": "54225422st22",
+   "tag": "registration compliete",
+   "regDate": "04.08.2022"
+  },
+  {
+   "name": "z",
+   "lastname": "z",
+   "email": "z.@gmail.com",
+   "pass": "555555",
+   "pass2": "555555",
+   "tag": "registration compliete",
+   "regDate": "04.08.2022"
+  }
+ ]
+}
